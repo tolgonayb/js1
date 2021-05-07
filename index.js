@@ -2,9 +2,8 @@ var input_name = prompt("Введите свое имя и фамилию", " ")
 alert("Привет" + " " + input_name + "!");
 
 
-var number = prompt ("Введите 2 числа")
-var number1 = "";
-var number2 = "";
+var number1 = prompt ("Введите первое число")
+var number2 = prompt ("Введите второе число")
 if (number1 < number2){
     console.log("Второе число больше, чем первое")
 } else if { (number1 > number2)
