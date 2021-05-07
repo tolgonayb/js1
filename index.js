@@ -1,11 +1,18 @@
-var name = prompt("Введите свое имя и фамилию", " ");
-alert("Привет, Евгений Киселев!");
+var input_name = prompt("Введите свое имя и фамилию", " ");
+var name = "Евгений Киселев"
+alert("Привет" + " " + name + "!");
 
-var number = prompt ("Введите 2 числа", "2, 5")
-console.log(2 < 5);
-console.log(2 <= 5);
-console.log(2 < 5);
-console.log(2 <= 5);
+
+var number = prompt ("Введите 2 числа")
+var number1 = "5";
+var number2 = "21";
+if (number1 < number2){
+    console.log("Второе число больше, чем первое")
+} else if { (number1 > number2)
+       console.log("Первое число больше, чем второе")
+ } else { (number1 = number2)
+     console.log("Оба числа равны")
+ }
 
 var color = "red"
 switch (color) {
